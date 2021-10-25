@@ -14,4 +14,5 @@ const _countReducer = createReducer(
   on(resetAction, () => 0)
 );
 
-export const countReducer = (state: any, action: any) => _countReducer(state, action);
+export const countReducer = (state: any, action: any) =>
+  _countReducer(state, action);
